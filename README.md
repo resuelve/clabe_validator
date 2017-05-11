@@ -9,6 +9,6 @@ by adding `clabe_validator` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:clabe_validator, "~> 0.1.0"}]
+  [{:clabe_validator, git: "git@github.com:resuelve/clabe_validator.git", tag: "0.1.0"},]
 end
 ```
