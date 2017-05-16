@@ -1,6 +1,6 @@
 # ClabeValidator
 
-Validates "Clave Bancaria Estandarizada" (Spanish for "standardized banking cipher") is a banking standard from the Mexican Bank Association (Asociación de Bancos de México – ABM) for uniform numbering of bank accounts.
+Validates a CLABE (Clave Bancaria Estandarizada, spanish for "standardized banking cipher")
 
 ## Installation
 
