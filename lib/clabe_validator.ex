@@ -79,8 +79,11 @@ defmodule ClabeValidator do
     }
   end
 
-  # Returns bank_code
-  defp get_bank_code(clabe), do: String.slice(clabe, 0, 3)
+  @doc """
+  Gets bank code
+  """
+  @spec get_bank_code(String.t) :: String.t
+  def get_bank_code(clabe), do: String.slice(clabe, 0, 3)
 
   # Returns region_code
   defp get_region_code(clabe), do: String.slice(clabe, 3, 3)
@@ -100,6 +103,4 @@ defmodule ClabeValidator do
       :error									-> ""
     end
   end
-
 end
-
